@@ -1,0 +1,4 @@
+a) git pull permet de récupérer l'intégrité avec tous les repository et les branches d'un dépôt distant tandis que git fetch ne recupère que les fichiers que contient le dépôt distant
+b)Pour annuler les modifactions locales non validées dans git on utilisera la commande "git log --oneline" pour voir les commit qu'on a eu à faire et grâce à l'id du commit nous utiliserons la commande "git checkout <id_du_commit>" pour revenir ou annuler les modifications locales non validées
+c)
+d) On peut voir l'historique des modifications pour un fichier spécifique dans git en utilisant la commande "git log"

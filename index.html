@@ -1,0 +1,81 @@
+<!DOCTYPE >
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Restaurant Amis du Web</h3><br>
+        <h1>Menu</h1><br>
+        <div class="ligne"></div>
+        <div class="menu">
+            <input type="checkbox" value="menu"><span>Café au lait(250 FCFA)</span><br><br>
+            <input type="checkbox" value="menu"><span>Milo au lait(200 FCFA)</span><br><br>
+            <input type="checkbox" value="menu"><span>Omelette(300 FCFA)</span><br><br>
+            <input type="checkbox" value="menu"><span>Riz au poisson(300 FCFA)</span><br><br>
+            <input type="checkbox" value="menu"><span>Couscous au légumes(800 FCFA)</span><br><br>
+        </div>
+        <button><a href="#">Commander</a></button>
+        <h4>Le total de votre commande: 0 FCFA</h4>
+    </div>
+</body>
+</html>
+<style>
+    *{
+padding: 0;
+margin: 0;
+}
+
+
+body{
+margin: auto 50%; 
+}
+
+.container{
+border: dashed 2.4px;
+width: 350px;
+height: 380px;
+padding-top: 20px;
+}
+
+h1,h3{
+text-align: center;
+}
+
+.ligne{
+height: 1px;
+background: black;
+width: 300px;
+margin: 0 auto;
+
+}
+
+.menu{
+padding-top: 20px;
+padding-left: 20px;
+}
+
+span{
+position: relative;
+left: 10px;
+}
+
+button{
+position: relative;
+left: 250px;
+background-color: black;
+height: 30px;
+}
+
+button a{
+color: white;
+text-decoration: none;
+}
+
+h4{
+padding: 20px;
+}
+</style>
